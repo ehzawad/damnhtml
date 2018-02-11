@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Registration Form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1> Registration Form </h1>
+    <form method="post">
+      <label for="userid">ID</label>
+      <input type="text" id="userid" name="idNumber" placeholder="Enter id"><br>
+
+      <label for="username">Name</label>
+      <input type="text" id="username" name="name" placeholder="Enter name"><br>
+
+      <div>
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="sex" value="male" checked><label for="male">Male</label><br>
+        <input type="radio" id="female" name="sex" value="female"><label for="female">female</label><br>
+      </div>
+
+
+      <label for="useremail">Email</label><br>
+      <input type="email" id="useremail" name="email" placeholder="Enter email"><br>
+
+      <label for="userphone">Phone</label><br>
+      <input type="tel" id="userphone" name="phone" placeholder="Enter phone"><br>
+
+
+      <label for="useraddress">Address</label><br>
+      <textarea id="useraddress" placeholder="Enter address"></textarea><br>
+
+      <input type="submit" name="submitBtn" value="Register"><br>
+
+      <a href="index.html">Back</a>
+
+    </form>
+  </body>
+</html>
+
